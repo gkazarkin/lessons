@@ -1,0 +1,470 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:\\Users\\gkazarkin\\Downloads\\Auto\\Уроки\\AppiumTests\\apks\\org.wikipedia.apk","AutomationName":"Appium","platformVersion":"6.0","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:\\Users\\gkazarkin\\Downloads\\Auto\\Уроки\\AppiumTests\\apks\\org.wikipedia.apk","AutomationName":"Appium","platformVersion":"6.0","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}}
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:\\Users\\gkazarkin\\Downloads\\Auto\\Уроки\\AppiumTests\\apks\\org.wikipedia.apk","AutomationName":"Appium","platformVersion":"6.0","platformName":"Android","deviceName":"AndroidTestDevice"},{},{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:\\Users\\gkazarkin\\Downloads\\Auto\\Уроки\\AppiumTests\\apks\\org.wikipedia.apk","AutomationName":"Appium","platformVersion":"6.0","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}]
+[BaseDriver] Event 'newSessionRequested' logged at 1552449112286 (10:51:52 GMT+0700 (Новосибирское стандартное время))
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"appPackage":"org.wikip... into desiredCapabilities object {"appPackage":"org.wikipedia","appActivity":".m...
+[Appium] Creating new AndroidDriver (v1.40.1) session
+[Appium] Capabilities:
+[Appium]   appPackage: org.wikipedia
+[Appium]   appActivity: .main.MainActivity
+[Appium]   app: C:\Users\gkazarkin\Downloads\Auto\Уроки\AppiumTests\apks\org.wikipedia.apk
+[Appium]   AutomationName: Appium
+[Appium]   platformVersion: 6.0
+[Appium]   platformName: Android
+[Appium]   deviceName: AndroidTestDevice
+[BaseDriver] W3C capabilities [] and MJSONWP desired capabilities  were provided
+[BaseDriver] Falling back to MJSONWP desired capabilities
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: AutomationName.
+[BaseDriver] Session created with session id: 957478e9-fe05-4332-8dda-c8d34623221b
+[AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_201
+[ADB] Checking whether adb is present
+[ADB] Found 3 'build-tools' folders under 'C:\Users\gkazarkin\AppData\Local\Android\Sdk' (newest first):
+[ADB]     C:/Users/gkazarkin/AppData/Local/Android/Sdk/build-tools/28.0.3
+[ADB]     C:/Users/gkazarkin/AppData/Local/Android/Sdk/build-tools/28.0.1
+[ADB]     C:/Users/gkazarkin/AppData/Local/Android/Sdk/build-tools/27.0.3
+[ADB] Using adb.exe from C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[ADB] Trying to find a connected android device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[AndroidDriver] Looking for a device with Android '6.0'
+[ADB] Setting device id to 192.168.37.101:5555
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell getprop ro.build.version.release'
+[ADB] Current device property 'ro.build.version.release': 6.0
+[AndroidDriver] Using device: 192.168.37.101:5555
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe
+[ADB] Setting device id to 192.168.37.101:5555
+[BaseDriver] Using local app 'C:\Users\gkazarkin\Downloads\Auto\Уроки\AppiumTests\apks\org.wikipedia.apk'
+[AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 wait-for-device'
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell echo ping'
+[AndroidDriver] Pushing settings apk to device...
+[ADB] Getting install status for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell pm list packages io.appium.settings'
+[ADB] App is installed
+[ADB] Getting package info for 'io.appium.settings'
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell dumpsys package io.appium.settings'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\gkazarkin\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+[ADB] The installed 'io.appium.settings' package does not require upgrade (17 > 5)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell ps'
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell getprop ro.build.version.sdk'
+[ADB] Current device property 'ro.build.version.sdk': 23
+[ADB] Device API level: 23
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[ADB] Device API level: 23
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell appops set io.appium.settings android\:mock_location allow'
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'undefined' and country: 'undefined'
+[Logcat] Starting logcat capture
+[AndroidDriver] Pushing unlock helper app to device...
+[ADB] Getting install status for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell pm list packages io.appium.unlock'
+[ADB] App is installed
+[ADB] Getting package info for 'io.appium.unlock'
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell dumpsys package io.appium.unlock'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\gkazarkin\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+[ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell getprop ro.build.version.release'
+[ADB] Current device property 'ro.build.version.release': 6.0
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell wm size'
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell getprop ro.product.model'
+[ADB] Current device property 'ro.product.model': Google Nexus 6
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell getprop ro.product.manufacturer'
+[ADB] Current device property 'ro.product.manufacturer': Genymotion
+[ADB] Getting install status for org.wikipedia
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell pm list packages org.wikipedia'
+[ADB] App is installed
+[ADB] Getting package info for 'org.wikipedia'
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell dumpsys package org.wikipedia'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\gkazarkin\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+[ADB] The installed 'org.wikipedia' package does not require upgrade ('2.6.198' >= '2.6.198')
+[AndroidDriver] Performing fast reset on 'org.wikipedia'
+[ADB] Getting install status for org.wikipedia
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell pm list packages org.wikipedia'
+[ADB] App is installed
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell am force-stop org.wikipedia'
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell pm clear org.wikipedia'
+[AndroidDriver] Performed fast reset on the installed 'org.wikipedia' application (stop and clear)
+[AndroidDriver] Extracting strings from apk
+[AndroidDriver] C:\Users\gkazarkin\Downloads\Auto\Уроки\AppiumTests\apks\org.wikipedia.apk
+[AndroidDriver] undefined
+[AndroidDriver] C:\Users\GKAZAR~1\AppData\Local\Temp\org.wikipedia
+[ADB] Extracting strings for language: default
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\gkazarkin\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+[ADB] Successfully extracted 603 strings from 'C:\Users\gkazarkin\Downloads\Auto\Уроки\AppiumTests\apks\org.wikipedia.apk' resources for '(default)' configuration
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 push C\:\\Users\\GKAZAR~1\\AppData\\Local\\Temp\\org.wikipedia\\strings.json /data/local/tmp'
+[AndroidBootstrap] Watching for bootstrap disconnect
+[ADB] Forwarding system: 4724 to device: 4724
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 forward tcp\:4724 tcp\:4724'
+[UiAutomator] Starting UiAutomator
+[UiAutomator] Moving to state 'starting'
+[UiAutomator] Parsing uiautomator jar
+[UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 push 'C:\\Program Files (x86)\\Appium\\resources\\app\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar' /data/local/tmp/'
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell ps'
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Starting UIAutomator
+[ADB] Creating ADB subprocess with args: ["-P",5037,"-s","192.168.37.101:5555","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","org.wikipedia","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[UiAutomator] Moving to state 'online'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Device API level: 23
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell am start -W -n org.wikipedia/.main.MainActivity -S'
+[Appium] New AndroidDriver session created successfully, session 957478e9-fe05-4332-8dda-c8d34623221b added to master session list
+[BaseDriver] Event 'newSessionStarted' logged at 1552449122584 (10:52:02 GMT+0700 (Новосибирское стандартное время))
+[MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:\\Users\\gkazarkin\\Downloads\\Auto\\Уроки\\AppiumTests\\apks\\org.wikipedia.apk","AutomationName":"Appium","platformVersion":"6.0","platformName":"Android","deviceName":"AndroidTestDevice"},"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:\\Users\\gkazarkin\\Downloads\\Auto\\Уроки\\AppiumTests\\apks\\org.wikipedia.apk","AutomationName":"Appium","platformVersion":"6.0","platformName":"Android","deviceName":"192.168.37.101:5555","deviceUDID":"192.168.37.101:5555","deviceScreenSize":"1080x1920","deviceModel":"Google Nexus 6","deviceManufacturer":"Genymotion"}
+[HTTP] <-- POST /wd/hub/session 200 10310 ms - 948
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"xpath","value":"//*[contains(@text, 'Search Wikipedia')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text, 'Search Wikipedia')]","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text, 'Search Wikipedia')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text, 'Search Wikipedia')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text, 'Search Wikipedia')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"1"}]
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 1217 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/element/1/click
+[HTTP] {"id":"1"}
+[MJSONWP] Calling AppiumDriver.click() with args: ["1","957478e9-fe05-4332-8dda-c8d34623221b"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/element/1/click 200 207 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"xpath","value":"//*[contains(@text, 'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text, 'Search…')]","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text, 'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text, 'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text, 'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"2"}]
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 688 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/element/2/value
+[HTTP] {"id":"2","value":["Java"]}
+[MJSONWP] Calling AppiumDriver.setValue() with args: [["Java"],"2","957478e9-fe05-4332-8dda-c8d34623221b"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"Java","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"Java","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Java
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[MJSONWP] Responding to client with driver.setValue() result: true
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/element/2/value 200 5514 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"xpath","value":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 94 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"xpath","value":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 418 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"xpath","value":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=6]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=6]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"3"}]}
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"3"}]
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 152 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/element/3/click
+[HTTP] {"id":"3"}
+[MJSONWP] Calling AppiumDriver.click() with args: ["3","957478e9-fe05-4332-8dda-c8d34623221b"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/element/3/click 200 137 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"id","value":"org.wikipedia:id/view_page_title_text"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["id","org.wikipedia:id/view_page_title_text","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"org.wikipedia:id/view_page_title_text","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"org.wikipedia:id/view_page_title_text","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'org.wikipedia:id/view_page_title_text' using 'ID' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'org.wikipedia:id/view_page_title_text' using 'ID' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 1655 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"id","value":"org.wikipedia:id/view_page_title_text"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["id","org.wikipedia:id/view_page_title_text","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"org.wikipedia:id/view_page_title_text","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"org.wikipedia:id/view_page_title_text","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'org.wikipedia:id/view_page_title_text' using 'ID' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'org.wikipedia:id/view_page_title_text' using 'ID' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 506 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"id","value":"org.wikipedia:id/view_page_title_text"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["id","org.wikipedia:id/view_page_title_text","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"org.wikipedia:id/view_page_title_text","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"org.wikipedia:id/view_page_title_text","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'org.wikipedia:id/view_page_title_text' using 'ID' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=org.wikipedia:id/view_page_title_text]
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"4"}]}
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"4"}]
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 699 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements
+[HTTP] {"using":"xpath","value":"//android.widget.ImageView[@content-desk='More options']"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageView[@content-desk='More options']","957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageView[@content-desk='More options']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageView[@content-desk='More options']","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageView[@content-desk='More options']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageView[@content-desk='More options']' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b/elements 200 7401 ms - 74
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b
+[HTTP] {}
+[MJSONWP] Calling AppiumDriver.deleteSession() with args: ["957478e9-fe05-4332-8dda-c8d34623221b"]
+[BaseDriver] Event 'quitSessionRequested' logged at 1552449143467 (10:52:23 GMT+0700 (Новосибирское стандартное время))
+[Appium] Removing session 957478e9-fe05-4332-8dda-c8d34623221b from our master session list
+[AndroidDriver] Shutting down Android driver
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell am force-stop org.wikipedia'
+[ADB] Pressing the HOME button
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell input keyevent 3'
+[AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+
+[UiAutomator] Shutting down UiAutomator
+[UiAutomator] Moving to state 'stopping'
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+
+[AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+
+[AndroidBootstrap] [UIAUTO STDOUT] Time: 24.046
+
+[AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+
+[UiAutomator] UiAutomator shut down normally
+[UiAutomator] Moving to state 'stopped'
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell ps'
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Moving to state 'stopped'
+[Logcat] Stopping logcat capture
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 192.168.37.101\:5555 shell am force-stop io.appium.unlock'
+[AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[BaseDriver] Event 'quitSessionFinished' logged at 1552449145228 (10:52:25 GMT+0700 (Новосибирское стандартное время))
+[MJSONWP] Received response: null
+[MJSONWP] But deleting session, so not returning
+[MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/957478e9-fe05-4332-8dda-c8d34623221b 200 1763 ms - 76
