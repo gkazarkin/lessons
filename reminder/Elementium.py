@@ -1,5 +1,18 @@
 """
 #Elementium
+import datetime
+from elementium.drivers.se import SeElements
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
+print("Run Started at :" + str(datetime.datetime.now()))
+s = SeElements(webdriver.Chrome(ChromeDriverManager().install()))
+s.set_window_size(1900, 1000)
+
+print("Run Ended at :" + str(datetime.datetime.now()))
+s.browser.quit()
+
+# Методы
 se.find('button', wait=True)
 
 # Find by ID

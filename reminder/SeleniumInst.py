@@ -1,3 +1,4 @@
+"""
 # Установка
 pip install selenium
 
@@ -12,3 +13,5 @@ browser.get(link)
 или
 driver = webdriver.Chrome()
 driver.implicitly_wait(10) # seconds
+
+"""
