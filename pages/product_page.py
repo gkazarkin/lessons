@@ -12,7 +12,7 @@ class ProductPage(Base):
         self.check_price_added()
 
     def should_be_login_url(self):
-        promo = "promo=newYear"
+        promo = "promo="
         current_url = self.browser.current_url
         assert promo in current_url, f'Expected {promo}, but substring is not found at {current_url}'
 
