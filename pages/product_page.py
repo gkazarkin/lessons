@@ -1,9 +1,9 @@
 import time
 from pages.locators import ProductPageLocator
-from pages.base import Base
+from pages.basepage import BasePage
 
 
-class ProductPage(Base):
+class ProductPage(BasePage):
     def should_be_product_page(self):
         self.should_be_login_url()
         self.should_be_add_to_cart_button()

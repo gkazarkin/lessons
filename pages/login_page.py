@@ -1,8 +1,10 @@
-from .base import Base
+from .basepage import BasePage
 from pages.locators import LoginPageLocators
+import time
+import faker
 
 
-class LoginPage(Base):
+class LoginPage(BasePage):
     def should_be_login_page(self):
         self.should_be_login_url()
         self.should_be_login_form()
@@ -12,6 +14,16 @@ class LoginPage(Base):
         login = "login"
         current_url = self.browser.current_url
         assert login in current_url, f'Expected {login}, but substring is not found at {current_url}'
+
+    @pytest.
+    def register_new_user(self, email, password):
+        # email = str(time.time()) + "@fakemail.org"
+        f = faker.Faker()
+        email = f.email()
+        # принимает две строки и регистрирует пользователя
+        # открыть страницу регистрации
+        # зарегистрировать нового пользователя
+        # проверить, что пользователь залогинен
 
     def should_be_login_form(self):
         sign_in_email_field_check = self.is_element_present(*LoginPageLocators.sign_in_email_field)

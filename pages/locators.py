@@ -25,3 +25,8 @@ class ProductPageLocator():
     price_green_loc = (By.CLASS_NAME, "price_color")
     basket_price_loc = (By.XPATH, '//*[@id="default"]/header/div[1]/div/div[2]/text()')
     book_name_loc = (By.CSS_SELECTOR, '[class="col-sm-6 product_main"] h1')
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
